@@ -91,3 +91,16 @@ The RAWG API key is managed within `index.html` inside a mocked `process.env` ob
 ### Real-time Review Syncing
 
 In `GameDetailPage.tsx`, a `storage` event listener is attached to the `window`. This event fires whenever `localStorage` is modified from another tab on the same domain. By listening for changes to the `gamezone_reviews` key, the component knows to re-fetch the reviews, ensuring the UI is always in sync.
+
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
+
