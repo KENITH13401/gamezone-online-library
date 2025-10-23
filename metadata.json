@@ -1,0 +1,5 @@
+{
+  "name": "GameZone – Online Game Library & Review Hub",
+  "description": "A web application to browse, search, and review video games. Users can create accounts, save favorite games, and post reviews. This app uses a mock API to simulate fetching game data.",
+  "requestFramePermissions": []
+}
